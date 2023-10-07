@@ -112,7 +112,7 @@ def _emg_plot_static(emg_signals, x_axis, onsets, offsets, sampling_rate):
         ax1.set_xlabel("Samples")
 
     fig.suptitle("Electromyography (EMG)", fontweight="bold")
-    plt.tight_layout(h_pad=0.2)
+    plt.tight_layout(h_pad=1)
 
     # Plot cleaned and raw EMG.
     ax0.set_title("Raw and Cleaned Signal")
